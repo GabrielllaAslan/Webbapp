@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  
+  header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  header a.logo {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  
+  header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+  
+.user-form {
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 70px;
+  
+  }
+  
+  .user-form form {
+    margin-top: 20px;
+  }
+  
+  input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  
+.show-users {
+    margin-top: 30px;
+    padding: 70px;
+  }
+  
+  #users {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #users td, #users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #users tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+  
+  #users tr:hover {background-color: #ddd;}
+  
+  #users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  #users .edit, #users .delete {
+    padding: 7px;
+    cursor: pointer;
+    color: white;
+  
+  }
+  
+  #users .edit {
+    background-color: #04AA6D;
+    margin-right: 5px;
+  }
+  
+  #users .delete {
+    background-color: red;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 30px;
+    background: #000000e7;
+    padding: 40px;
+    color: white;
+  }
+  
+  
